@@ -1,0 +1,114 @@
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global Styles */
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .logo {
+  color: #333;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-right: auto;
+    padding-top: 10px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    margin-left: 700px;
+    
+  }
+  
+  .nav-links li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .nav-links li a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    
+  }
+  
+  .nav-links li a:hover {
+    color: #007bff;
+  }
+  
+  .menu-toggle {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px 0;
+  }
+  
+  /* Hero Section Styles */
+  .hero {
+    background-color: rgb(51, 93, 129);
+    overflow: hidden;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+    margin-top: 90px;
+    
+  }
+  
+  /* Flavors Section Styles */
+  .flavors {
+    padding: 80px 0;
+    text-align: center;
+    
+  }
+  
+  .flavor-item {
+    display: inline-block;
+    margin: 0 20px;
+    height: 100px;
+    width: 100px;
+    margin-right: 200px;
+    padding: 40px 40px 40px 40px;
+  }
+  
+  .flavor-item img {
+    width: 200px;
+    border-radius: 30px;
+    
+    border: 5px solid #007bff;
+  }
+  
+  /* Footer Styles */
+  .footer {
+    background-color: #f8f9fa;
+    text-align: center;
+    
+    width: 100%;
+    bottom: 0;
+  }
+  
